@@ -1,0 +1,37 @@
+Package: mctmref
+Type: Package
+Title: Multivariate Conditional Reference and Tolerance Regions via
+        Transformation Models
+Version: 0.1.0
+Date: 2025-03-22
+Authors@R: c(
+    person("Oscar", "Lado-Baleato",
+           email = "ladooscar@uniovi.es",
+           role  = c("aut", "cre")),
+    person("Thomas", "Kneib",
+           email = "tkneib@uni-goettingen.de",
+           role  = "aut"))
+Description: Estimates bivariate conditional reference regions and tolerance
+    regions based on Multivariate Conditional Transformation Models (MCTMs),
+    following Lado-Baleato et al. (2023) <doi:10.1002/bimj.202200229>.
+    Provides functions to fit MCTMs, compute marginal conditional percentile
+    curves, estimate bivariate reference and tolerance regions conditional on
+    covariates, obtain joint Z-scores and decorrelated residuals, evaluate
+    the joint log-likelihood, compute Mahalanobis distances, and perform
+    leave-one-out cross-validation coverage checks. All functions use only
+    documented generics from the underlying packages, making the
+    implementation robust to future API changes.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Depends: R (>= 4.1.0)
+Imports: mlt (>= 1.4-0), basefun (>= 1.1-0), variables (>= 1.1-0),
+        tram, tolerance, stats, graphics, utils
+Suggests: refreg
+URL: https://github.com/Bioscar/mctmref
+BugReports: https://github.com/Bioscar/mctmref/issues
+NeedsCompilation: no
+Packaged: 2026-03-27 19:50:25 UTC; oscarladobaleato
+Author: Oscar Lado-Baleato [aut, cre],
+  Thomas Kneib [aut]
+Maintainer: Oscar Lado-Baleato <ladooscar@uniovi.es>
