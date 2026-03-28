@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: none
----
-
 # mctmref: Conditional Reference and Tolerance Regions Based on MCTMs
 
 Óscar Lado Baleato 2026-03-27
